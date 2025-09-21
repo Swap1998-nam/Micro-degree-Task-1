@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro-Degree DevOps Task</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9fafc;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #0073e6, #00c6ff);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #0073e6;
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Micro-Degree DevOps Task</h1>
+        <p>Understanding Git and Jenkins in DevOps</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Git?</h2>
+            <p>
+                Git is a <strong>distributed version control system (VCS)</strong> that helps developers track changes in code, collaborate in teams, and maintain different versions of their projects. 
+            </p>
+            <h3>Key Features of Git:</h3>
+            <ul>
+                <li><b>Branching and Merging</b> – Work on new features independently and merge when ready.</li>
+                <li><b>Distributed Development</b> – Every developer has a full copy of the repository.</li>
+                <li><b>Version History</b> – Track who changed what and when.</li>
+                <li><b>Collaboration</b> – GitHub, GitLab, and Bitbucket make teamwork seamless.</li>
+            </ul>
+            <p><em>Example:</em> Developers can create a <code>staging</code> branch to test new features before pushing to <code>main</code>.</p>
+        </section>
+
+        <section>
+            <h2>What is Jenkins?</h2>
+            <p>
+                Jenkins is an <strong>open-source automation server</strong> used for <b>Continuous Integration (CI)</b> and <b>Continuous Delivery (CD)</b>. 
+                It automates the build, testing, and deployment process in DevOps pipelines.
+            </p>
+            <h3>Key Features of Jenkins:</h3>
+            <ul>
+                <li><b>Automation</b> – Build and test code automatically on each commit.</li>
+                <li><b>Plugins</b> – 1,800+ plugins to integrate with tools like Docker, Kubernetes, GitHub, and AWS.</li>
+                <li><b>Pipeline as Code</b> – Define build pipelines using simple scripts (Jenkinsfile).</li>
+                <li><b>Extensibility</b> – Highly customizable to fit any DevOps workflow.</li>
+            </ul>
+            <p><em>Example:</em> A Jenkins pipeline can pull code from GitHub, build a Docker image, test it, and deploy to a staging server automatically.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created as part of Micro-Degree DevOps Task | © 2025</p>
+    </footer>
+</body>
+</html>
+
